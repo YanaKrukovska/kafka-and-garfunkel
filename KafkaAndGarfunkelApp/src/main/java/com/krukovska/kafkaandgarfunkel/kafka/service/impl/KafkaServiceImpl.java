@@ -1,7 +1,7 @@
-package com.krukovska.palmetto.kafka.service.impl;
+package com.krukovska.kafkaandgarfunkel.kafka.service.impl;
 
-import com.krukovska.palmetto.kafka.service.KafkaService;
-import com.krukovska.palmetto.model.Order;
+import com.krukovska.kafkaandgarfunkel.kafka.service.KafkaService;
+import com.krukovska.kafkaandgarfunkel.model.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.springframework.beans.factory.annotation.Autowired;

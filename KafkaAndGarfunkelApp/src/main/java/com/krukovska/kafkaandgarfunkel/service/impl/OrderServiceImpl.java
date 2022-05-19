@@ -1,8 +1,8 @@
-package com.krukovska.palmetto.service.impl;
+package com.krukovska.kafkaandgarfunkel.service.impl;
 
-import com.krukovska.palmetto.model.Order;
-import com.krukovska.palmetto.model.OrderStatus;
-import com.krukovska.palmetto.service.OrderService;
+import com.krukovska.kafkaandgarfunkel.model.Order;
+import com.krukovska.kafkaandgarfunkel.model.OrderStatus;
+import com.krukovska.kafkaandgarfunkel.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

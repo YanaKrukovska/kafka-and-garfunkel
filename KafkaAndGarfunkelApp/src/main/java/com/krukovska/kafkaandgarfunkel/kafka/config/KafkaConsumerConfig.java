@@ -1,6 +1,6 @@
-package com.krukovska.palmetto.kafka.config;
+package com.krukovska.kafkaandgarfunkel.kafka.config;
 
-import com.krukovska.palmetto.model.Order;
+import com.krukovska.kafkaandgarfunkel.model.Order;
 import org.apache.kafka.common.serialization.LongDeserializer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

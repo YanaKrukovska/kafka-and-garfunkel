@@ -1,26 +1,26 @@
-package com.krukovska.palmetto.kafka.listener;
+package com.krukovska.kafkaandgarfunkel.kafka.listener;
 
-import com.krukovska.palmetto.kafka.service.KafkaService;
-import com.krukovska.palmetto.model.Order;
-import com.krukovska.palmetto.model.OrderStatus;
-import com.krukovska.palmetto.service.OrderService;
+import com.krukovska.kafkaandgarfunkel.kafka.service.KafkaService;
+import com.krukovska.kafkaandgarfunkel.model.Order;
+import com.krukovska.kafkaandgarfunkel.model.OrderStatus;
+import com.krukovska.kafkaandgarfunkel.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
-import static com.krukovska.palmetto.model.OrderStatus.*;
+import static com.krukovska.kafkaandgarfunkel.model.OrderStatus.*;
 
 @Slf4j
 @Component
-public class PalmettoListeners {
+public class KafkaAndGarfunkelListeners {
 
     private final OrderService orderService;
     private final KafkaService kafkaService;
 
     @Autowired
-    public PalmettoListeners(OrderService orderService, KafkaService kafkaService) {
+    public KafkaAndGarfunkelListeners(OrderService orderService, KafkaService kafkaService) {
         this.orderService = orderService;
         this.kafkaService = kafkaService;
     }

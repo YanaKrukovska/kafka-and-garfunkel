@@ -1,4 +1,4 @@
-package com.krukovska.palmetto.model;
+package com.krukovska.kafkaandgarfunkel.model;
 
 public enum OrderStatus {
 
