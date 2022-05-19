@@ -1,13 +1,13 @@
-package com.krukovska.kafkaandgarfunkel;
+package com.krukovska.courier;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaAndGarfunkelAppApplication {
+public class CourierApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaAndGarfunkelAppApplication.class, args);
+        SpringApplication.run(CourierApplication.class, args);
     }
 
 }

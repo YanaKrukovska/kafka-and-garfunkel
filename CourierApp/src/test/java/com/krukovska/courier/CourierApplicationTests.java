@@ -1,10 +1,10 @@
-package com.krukovska.kafkaandgarfunkel;
+package com.krukovska.courier;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KafkaAndGarfunkelAppApplicationTests {
+class CourierApplicationTests {
 
     @Test
     void contextLoads() {
