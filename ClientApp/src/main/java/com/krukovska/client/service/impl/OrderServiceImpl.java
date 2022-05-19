@@ -1,6 +1,7 @@
 package com.krukovska.client.service.impl;
 
 import com.krukovska.client.model.Order;
+import com.krukovska.client.model.OrderStatus;
 import com.krukovska.client.repository.OrderRepository;
 import com.krukovska.client.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +26,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order createOrder(Order order) {
+        order.setStatus(OrderStatus.NEW);
         log.info("Create new order={}", order);
         return repository.save(order);
     }

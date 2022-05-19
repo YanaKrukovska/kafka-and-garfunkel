@@ -1,0 +1,11 @@
+POST http://localhost:8092/order
+Content-Type: application/json
+
+{
+  "clientName": "Jane Doe",
+  "description": "Cheese border"
+}
+
+###
+
+GET http://localhost:8092/order/3

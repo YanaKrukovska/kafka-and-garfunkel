@@ -26,6 +26,11 @@ public class Order {
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
 
+    public Order(String clientName, String description) {
+        this.clientName = clientName;
+        this.description = description;
+    }
+
     public Order(String clientName, String description, OrderStatus status) {
         this.clientName = clientName;
         this.description = description;
