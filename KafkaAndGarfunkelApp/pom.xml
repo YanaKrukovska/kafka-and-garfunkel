@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.krukovska</groupId>
-    <artifactId>PalmettoApp</artifactId>
+    <artifactId>KafkaAndGarfunkelApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PalmettoApp</name>
-    <description>PalmettoApp</description>
+    <name>KafkaAndGarfunkelApp</name>
+    <description>KafkaAndGarfunkel Pizzeria App</description>
     <properties>
         <java.version>11</java.version>
     </properties>
